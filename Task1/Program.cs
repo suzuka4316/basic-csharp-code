@@ -8,13 +8,9 @@ namespace Task1
 {
     class Program
     {
-        /// <summary>
-        /// Calculator
-        /// Display a result of calculation based on 2 numbers and an operator a user inputs.
-        /// A user can input either '-'(subtraction), '+'(addition), '*'(multiplication), '/'(division).
-        /// </summary>
         static void Main(string[] args)
         {
+            //add logic here
             Console.Write("Enter an integer number: ");
             double num1 = double.Parse(Console.ReadLine());
             Console.Write("\nEnter an operator[-, +, *, /]: ");
@@ -40,6 +36,27 @@ namespace Task1
                     Console.WriteLine($"{op} is an invalid operator input.");
                     break;
             }
+
+            //if (op == '-')
+            //{
+            //    Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+            //}
+            //else if (op == '+')
+            //{
+            //    Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+            //}
+            //else if (op == '*')
+            //{
+            //    Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
+            //}
+            //else if (op == '/')
+            //{
+            //    Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{op} is an invalid input.");
+            //}
 
             Console.ReadKey();
         }

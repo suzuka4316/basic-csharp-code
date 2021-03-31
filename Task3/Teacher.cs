@@ -10,6 +10,7 @@ namespace Task3
     {
         private string _faculty;
 
+        //TODO: 4, add constructor
         public Teacher(string name, string faculty):base(name)
         {
             _faculty = faculty;
@@ -17,6 +18,7 @@ namespace Task3
 
         public override void PrintDetails()
         {
+            //TODO: 5, print details to console
             Console.WriteLine($"Hi my name is {_name} and I teach in the {_faculty} faculty");
         }
     }

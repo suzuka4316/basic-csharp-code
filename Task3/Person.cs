@@ -13,6 +13,7 @@ namespace Task3
 
         public Person(string name)
         {
+            //TODO: 1, initialise _name field
             _name = name;
         }
 

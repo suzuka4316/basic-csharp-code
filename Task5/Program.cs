@@ -8,14 +8,9 @@ namespace Task5
 {
     class Program
     {
-        /// <summary>
-        /// From number 50 to 25,
-        /// Display all the numbers that are divisible by 3 and 5,
-        /// Display all the numbers that are divisible by 3,
-        /// and Display all the numbers that are divisible by 5,
-        /// </summary>
         static void Main(string[] args)
         {
+            //add logic here
             int i = 50;
             string info;
             do

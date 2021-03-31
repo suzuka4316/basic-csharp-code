@@ -11,6 +11,7 @@ namespace Task4
     {
         static void Main(string[] args)
         {
+            //add logic here
             //ReadCharCount1();
             ReadCharCount2();
             Console.ReadKey();           
@@ -43,10 +44,6 @@ namespace Task4
             sw.Dispose();
         }
 
-        /// <summary>
-        /// Read the text file "characters.txt" that contains uppercase alphabets and count each letter.
-        /// Write the result in a new text file "character-count.txt".
-        /// </summary>
         private static void ReadCharCount2()
         {
             StreamReader reader = new StreamReader("characters.txt");
@@ -57,7 +54,6 @@ namespace Task4
             {
                 string line = reader.ReadLine();
 
-                //in ASCII, Uppercase alphabets is equivalent to number 65 to 90. (A is 65, Z is 90)
                 int index = 0;
                 int i = 65;
                 do

@@ -8,12 +8,10 @@ namespace Task2
 {
     class Program
     {
-        /// <summary>
-        /// Hotel Booking
-        /// Display the total price for staying in a room in the hotel based on the user inputs (a type of room and how many nights they like to stay).
-        /// </summary>
+        
         static void Main(string[] args)
         {
+            //add logic here
             string[] roomTypes = new string[4] { "Single", "Double", "Luxury", "Penthouse" };
             double[] price = new double[4] { 45.50, 99.99, 165.25, 1095.50 };
 
